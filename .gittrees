@@ -14,3 +14,7 @@
 	url = git://github.com/ervandew/supertab.git
 	path = .vim/bundle/supertab
 	branch = master
+[subtree ".vim/bundle/UltiSnips"]
+	url = git://github.com/vim-scripts/UltiSnips.git
+	path = .vim/bundle/UltiSnips
+	branch = master
