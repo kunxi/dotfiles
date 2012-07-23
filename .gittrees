@@ -10,3 +10,7 @@
 	url = git://github.com/tpope/vim-fugitive.git
 	path = .vim/bundle/vim-fugitive
 	branch = master
+[subtree ".vim/bundle/supertab"]
+	url = git://github.com/ervandew/supertab.git
+	path = .vim/bundle/supertab
+	branch = master
