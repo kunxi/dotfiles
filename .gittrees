@@ -6,3 +6,7 @@
 	url = https://github.com/tpope/vim-pathogen/
 	path = .vim/bundle/vim-pathogen
 	branch = master
+[subtree ".vim/bundle/vim-fugitive"]
+	url = git://github.com/tpope/vim-fugitive.git
+	path = .vim/bundle/vim-fugitive
+	branch = master
