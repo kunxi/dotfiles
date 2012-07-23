@@ -2,3 +2,7 @@
 	url = git://github.com/robbyrussell/oh-my-zsh.git
 	path = .oh-my-zsh
 	branch = master
+[subtree ".vim/bundle/vim-pathogen"]
+	url = https://github.com/tpope/vim-pathogen/
+	path = .vim/bundle/vim-pathogen
+	branch = master
