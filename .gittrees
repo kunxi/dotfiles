@@ -1,0 +1,4 @@
+[subtree ".oh-my-zsh"]
+	url = git://github.com/robbyrussell/oh-my-zsh.git
+	path = .oh-my-zsh
+	branch = master
