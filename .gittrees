@@ -22,3 +22,7 @@
 	url = git://github.com/scrooloose/nerdtree.git
 	path = .vim/bundle/nerdtree
 	branch = master
+[subtree ".vim/bundle/html_autoclosetag"]
+	url = git://github.com/vim-scripts/HTML-AutoCloseTag.git
+	path = .vim/bundle/html_autoclosetag
+	branch = master
