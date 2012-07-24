@@ -42,3 +42,7 @@
 	url = git://repo.or.cz/vcscommand.git
 	path = .vim/bundle/vcscommand
 	branch = master
+[subtree ".vim/bundle/FuzzyFinder"]
+	url = https://github.com/vim-scripts/FuzzyFinder.git
+	path = .vim/bundle/FuzzyFinder
+	branch = master
