@@ -34,3 +34,7 @@
 	url = git://github.com/jmcantrell/vim-virtualenv.git
 	path = .vim/bundle/vim-virtualenv
 	branch = master
+[subtree ".vim/bundle/command-t"]
+	url = git://git.wincent.com/command-t.git
+	path = .vim/bundle/command-t
+	branch = master
