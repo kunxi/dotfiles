@@ -38,3 +38,7 @@
 	url = git://git.wincent.com/command-t.git
 	path = .vim/bundle/command-t
 	branch = master
+[subtree ".vim/bundle/vcscommand"]
+	url = git://repo.or.cz/vcscommand.git
+	path = .vim/bundle/vcscommand
+	branch = master
