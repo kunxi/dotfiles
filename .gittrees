@@ -26,3 +26,7 @@
 	url = git://github.com/vim-scripts/HTML-AutoCloseTag.git
 	path = .vim/bundle/html_autoclosetag
 	branch = master
+[subtree ".vim/bundle/tabular"]
+	url = git://github.com/godlygeek/tabular.git
+	path = .vim/bundle/tabular
+	branch = master
