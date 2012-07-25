@@ -323,8 +323,6 @@
         set guioptions-=T              " remove the toolbar
         set lines=40                   " 40 lines of text instead of 24,
         set guifont=Monaco:h12
-    else
-        set term=builtin_ansi       " Make arrow and other keys work
     endif
 " }
 
