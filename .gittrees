@@ -54,3 +54,7 @@
 	url = https://github.com/vim-scripts/L9.git
 	path = .vim/bundle/L9
 	branch = master
+[subtree ".vim/bundle/taglist"]
+	url = https://github.com/vim-scripts/taglist.vim.git
+	path = .vim/bundle/taglist
+	branch = master
