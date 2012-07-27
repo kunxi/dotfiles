@@ -41,3 +41,5 @@ if [ -f  "/usr/local/bin/virtualenvwrapper.sh" ]
 then
     source  "/usr/local/bin/virtualenvwrapper.sh"
 fi
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
