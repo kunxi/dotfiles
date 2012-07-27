@@ -300,7 +300,6 @@
         nmap <leader>fr :FufRenewCache<CR>
     " }
     " Taglist Variables {
-        let Tlist_Ctags_Cmd = '/usr/local/Cellar/ctags/5.8/bin/ctags'
         let Tlist_Auto_Highlight_Tag = 1
         let Tlist_Auto_Update = 1
         let Tlist_Exit_OnlyWindow = 1
