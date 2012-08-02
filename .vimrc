@@ -54,19 +54,9 @@
     set spell                          " spell checking on
 
     " Setting up the directories {
-        set backup           " backups are nice ...
-        set undofile         " so is persistent undo ...
-        set undolevels=1000  " maximum number of changes that can be undone
-        set undoreload=10000 " maximum number lines to save for undo on a buffer reload
-        " Moved to function at bottom of the file
-        "set backupdir=$HOME/.vimbackup//  " but not when they clog .
-        "set directory=$HOME/.vimswap//     " Same for swap files
-        "set viewdir=$HOME/.vimviews//     " same for view files
-
-        "" Creating directories if they don't exist
-        "silent execute '!mkdir -p $HVOME/.vimbackup'
-        "silent execute '!mkdir -p $HOME/.vimswap'
-        "silent execute '!mkdir -p $HOME/.vimviews'
+        set nobackup         " backups is less useful as anything non-trivial is in git.
+        set nowritebackup
+        set noswapfile
         au BufWinLeave * silent! mkview  "make vim save view (state) (folds, cursor, etc)
         au BufWinEnter * silent! loadview "make vim load view (state) (folds, cursor, etc)
     " }
@@ -312,7 +302,11 @@
         " Override how taglist does javascript
         let g:tlist_javascript_settings = 'javascript;f:function;c:class;m:method;p:property;v:global'
     " }
-
+    " python-mode {
+        let g:pymode_utils_onfly = 1
+        let g:pymode_lint_checker = "pyflakes,pep8"
+        let g:pymode_lint_write = 0
+    " }
 " }
 
 
